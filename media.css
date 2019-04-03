@@ -1,0 +1,381 @@
+
+@media screen and (max-width: 1200px) {
+    .logo {
+        padding: 15px 130px 15px 20px;
+    }
+    
+    .timer-word {
+        background: url(img/bg-timer-word.png) no-repeat center center;
+        height: 100%;
+        width: 220px;
+        background-size: 220px 100%;
+        font-size: 20px;
+        line-height: 0.7        
+    }
+    .timer-word--small {
+        font-size: 10px;
+    }
+    .timer-number {
+        background: url(img/bg-timer-number-small.png) no-repeat center center;
+        height: 100%;
+        width: 180px;
+        background-size: 180px 100%;
+        margin-left: -10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #clockdiv>div {
+        display: inline-block;
+        padding: 0px 4px;
+    }
+    #clockdiv div>span {
+        display: inline-block;
+        font-size: 32px;
+        font-family: "digital";
+        color: #d71015;
+    }
+    .smalltext {
+        font-size: 8px;
+        text-transform: uppercase;
+        font-family: 'BlackItalic';
+        font-weight: 700;
+        font-style: italic;
+        color: #fff;
+    }
+    
+    .people img {
+        max-width: 1222px;
+        width: 80%;
+    }
+    .prize-pool img {
+        height: 80px;
+    }
+     .prize-pool--word {   
+        font-size: 28px;
+    }
+    .button-box {
+        width: 90%;
+    }
+    .word {
+        font-size: 30px;
+    }
+    .word--small {
+        font-size: 14px;
+    }
+    .btn {
+        font-size: 22px;
+        padding: 15px 25px;
+    }
+}
+
+
+@media screen and (max-width: 850px) {
+    .page-wrapper {
+        background: url(img/bg-small.png) no-repeat center top / cover;
+    }  
+    
+    .header {        
+        height: 55px;    
+    }
+
+    .logo {
+        padding: 15px;
+        text-align: center;
+        width: 40%;
+        height: auto;
+    }
+    .logo img {        
+        width: 40%;        
+        height: auto;        
+    }   
+    .timer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+          
+    .timer-word {
+        background: url(img/bg-timer-word.png) no-repeat center center;
+        background-size: 140px 100%;
+        height: auto;
+        max-width: 140px;
+        font-size: 12px;
+        text-align: left;
+        padding: 10px 5px;
+        position: relative;
+        z-index: 2;
+    }
+    .timer-word--small {
+        font-size: 6px;
+    }
+    .timer-number {
+        background: url(img/bg-timer-number-small.png) no-repeat center center;
+        background-size: 140px 100%;       
+        height: 100%;
+        width: 140px;
+    }
+    
+    #clockdiv {
+        font-family: sans-serif;
+        color: #fff;
+        display: inline-block;       
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+    }
+    #clockdiv>div {
+        display: inline-block;
+        padding: 0px 2px;
+    }
+    #clockdiv div>span {
+        display: inline-block;
+        font-size: 20px;
+        font-family: "digital";
+        color: #d71015;
+    }
+    .smalltext {
+        font-size: 6px;
+    }
+             
+    .abs {
+        position: absolute;
+        z-index: 2;
+        left: 0;
+        right: 0;
+        top: 0px;
+    }
+    
+    .block {
+        position: relative;
+        top: 40px;
+        width: 100%;       
+    }
+    .abs-2 {       
+        bottom: 10%;
+    }
+    .comment {
+        max-width: 130px;
+        font-size: 8px;
+    }
+   
+    .prize-pool {
+        margin-bottom: 10px;
+        margin-top: -5px;
+    }
+    .prize-pool img {
+        height: 30px;
+    }
+     .prize-pool--word {   
+        font-size: 12px;
+    }       
+      
+    .button {
+        background: url(img/bg-button.png) no-repeat center center / cover;
+        background-size: 80% 100%;
+        height: 100%;
+        height: auto;
+        min-width: 308px;
+        bottom: -53%; 
+    }
+    .word {
+        font-size: 16px;
+        text-align: center;
+        line-height: 0.7;
+    }
+    .word--small {                  
+        font-size: 8px;  
+        text-align: center;    
+    }
+    
+    .button-box {
+        display: flex;
+        flex-wrap: wrap;       
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 auto;
+        width: 80%;
+    }
+    .btn {
+        font-size: 8px;
+        padding: 5px 7px;
+    }
+    .highlight {
+        position: absolute;
+        bottom: -140px;
+        z-index: 6;
+        left: -300px;
+        animation: anim-md linear 4s infinite;
+        right: 0;
+    }
+    
+}
+  
+    
+    @media screen and (max-width: 420px) {
+        .page-wrapper {
+            background: url(img/bg-small.png) no-repeat center top / cover;
+        }
+           
+        .timer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        .timer-word {
+            background: url(img/bg-timer-word-mob.png) no-repeat center center;
+            background-size: 143px 100%;
+            height: auto;
+            max-width: 143px;
+            width: 100%;
+            font-size: 14px;
+            text-align: center;
+            padding: 10px 5px;
+        }
+        .timer-word--small {
+            font-size: 7px;
+        }
+       
+        .timer-number {
+            background: url(img/bg-timer-number-small.png) no-repeat center center;
+            background-size: 143px 100%;
+            height: auto;
+            width: 143px;
+            width: 100%;
+            margin-left: -6px;
+        }
+       
+        #clockdiv {
+            font-family: sans-serif;
+            color: #fff;
+            display: inline-block;
+            
+            margin: 0 auto;
+            width: 100%;
+            text-align: center;
+        }
+        #clockdiv>div {
+            display: inline-block;
+            padding: 0px 0px;
+        }
+        #clockdiv div>span {
+            display: inline-block;
+            font-size: 20px;
+            font-family: "digital";
+            color: #d71015;
+        }
+        .smalltext {            
+            font-size: 6px;
+        }   
+        .block {           
+            top: 35px;           
+        }
+        .abs {
+            position: absolute;
+            z-index: 2;
+            left: 0;
+            right: 0;
+            top: 50px;
+        }
+        .img-wrap {
+            margin: 0 auto;
+            max-width: 1222px;            
+            position: absolute;
+            top: -10%;
+            left: -8%;
+            right: -3%;
+            z-index: -1;
+        }
+        
+        .people {
+            text-align: center;
+            width: 100%;
+            max-width: 1222px;
+            margin: 0 auto;
+        }
+        
+        .people img {
+            width: 100%;
+            max-width: 1222px;
+        }
+        .people-img-small {
+            display: inline-block;
+            width: 100%;
+        }
+        .people-img {
+            display: none;
+        }
+        .left img {
+            height: 100%;
+            width: 80%;
+        }
+        .right img {
+            height: 70%;
+            width: 80%;
+        }
+        .abs-2 {
+            bottom: 50%;
+        }
+               
+        .prize-pool {
+            margin-top: 0px; 
+            margin-bottom: 0px;
+        }
+               
+        .prize-pool img {
+            height: 40px;
+        }
+         .prize-pool--word {   
+            font-size: 14px;
+        }
+                   
+        .button-box {
+            display: flex;
+            flex-wrap: wrap;       
+            justify-content: space-around;
+            align-items: center;
+            margin: 0 auto;
+            width: 100%;
+        }
+        .button-container {
+            width: 90%;
+            max-width: 1222px;
+            margin: 0 auto;
+            height: auto;
+        }
+        
+        .button {
+            bottom: -160px;
+            height: auto;
+            padding: 15px 0px;
+            min-width: 300px;
+            width: 75%;
+            bottom: -120px;
+        }
+       
+        .word {
+            font-size: 22px;
+            text-align: center;
+            line-height: 0.7;
+        }
+        .word--small {                  
+            font-size: 11px;  
+            text-align: center;    
+        }
+        .btn {
+            font-size: 18px;
+            padding: 10px 15px;
+            margin-top: 10px;
+        }
+        .highlight {
+            position: absolute;
+            bottom: -140px;
+            z-index: 6;
+            left: -300px;
+            animation: anim-sm linear 4s infinite;
+            right: 0;
+        }
+    }
+    
